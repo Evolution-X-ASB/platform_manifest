@@ -48,7 +48,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
 
   <!-- Hardware repos -->
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="pixel" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="evo-asb" revision="pie" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pixel" />
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="pixel" />
@@ -59,12 +59,12 @@
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixel" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="pixel" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="evo-asb" revision="pie" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
 
   <!-- System Repos -->
   <project path="system/extras" name="system_extras" remote="pixel" />
-  <project path="system/nfc" name="system_nfc" remote="pixel" />
+  <project path="system/nfc" name="system_nfc" remote="evo-asb" revision="pie"/>
   <project path="system/vold" name="system_vold" remote="pixel" />
 
 </manifest>
